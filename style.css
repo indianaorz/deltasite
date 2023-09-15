@@ -47,8 +47,7 @@ img{
 }
 
 .gif-container{
-    padding-bottom:128px;
-    margin-top:128px;
+    padding-bottom:128px;    
 }
 
 .video-container {
@@ -95,7 +94,7 @@ body{
 
 .hero{
     position: fixed;
-    max-width: 100%;
+    max-width: 80%;
     min-width:800px;
     margin-left: auto;
     left: 0;
@@ -189,8 +188,15 @@ body{
     text-align: center;
     font-size: 1.5em;
     padding: 12px;
-    color:rgba(255,255,255,.4);
+    color:rgba(255,255,255,.7);
     font-style: italic;
+}
+.content-subheader2{
+    text-align: left;
+    margin-left: 10%;
+    font-size: 1em;
+    padding: 12px;
+    color:rgba(255,255,255,.4);
 }
 
 .content{
@@ -206,9 +212,12 @@ body{
     background-repeat: repeat-x;
     width: 100%;
     height: 200px;
-    margin-top: -64px;
+    margin-top: -16px;
     z-index:14;
     position: relative;
+    
+    background-size: auto 100%;
+    image-rendering: pixelated;
 }
 
 .ground2tile{
@@ -235,13 +244,21 @@ body{
 
 
 .playerandprops{
-    background-image: url("Assets/Images/playerandprops.png");
-    width: 766px;
-    height: 289px;
-    margin-top: -397px;
-    margin-left: 31%;
+    background-image: url(Assets/Images/playerandprops.png);
+    /* width: 766px; */
+    /* height: 289px; */
+    /* margin-top: -397px; */
+    /* margin-left: 31%; */
     position: absolute;
-    z-index:15;
+    z-index: -1;
+    image-rendering: pixelated;
+    transform: scale(5);
+    top: -262px;
+    /* width: 100%; */
+    height: 338px;
+    width: 440px;
+    right: 0;
+    margin-right: 358px;
 }
 
 .playtype-section{
@@ -263,7 +280,6 @@ body{
     max-height: 800px;
     top: 0px;
     padding-top:12px;
-    background-color: #001408;
     z-index: 1;
     padding-top: 4em;
 }
@@ -291,8 +307,11 @@ body{
 }
 
 .title{
-    margin-top:-9%;
-    position:fixed;
+    position:absolute;
+    z-index: 10;
+    width: 40%;
+    margin-left: 22%;
+    margin-top: 16px;
 }
 
 @media only screen and (min-width: 1800px){
@@ -306,7 +325,6 @@ body{
     .left-hero-border{
         height: 1000px;
         color: black;
-        background-color: #001408;
         width: 10vw;
         left: 0;
         position: fixed;
@@ -314,7 +332,6 @@ body{
     .right-hero-border{
         height: 1000px;
         color: black;
-        background-color: #001408;
         width: 10vw;
         right: 0;
         position: fixed;
@@ -325,7 +342,6 @@ body{
     .left-hero-border{
         height: 1000px;
         color: black;
-        background-color: #001408;
         width: 0%;
         left: 0;
         position: fixed;
@@ -333,7 +349,6 @@ body{
     .right-hero-border{
         height: 1000px;
         color: black;
-        background-color: #001408;
         width: 0%;
         right: 0;
         position: fixed;
@@ -342,10 +357,23 @@ body{
     .content{
         position:absolute;
         top:400px;
-        background-color:#001408;
         width:100%;
         margin-left: 0;
         margin-right: 0;
+    }
+    .playerandprops{
+        background-image: url("Assets/Images/playerandprops.png");
+        position: absolute;
+        z-index: -1;
+        image-rendering: pixelated;
+        transform: scale(4);
+        top: -141px;
+        /* width: 100%; */
+        height: 395px;
+        width: 440px;
+        right: 0;
+        margin-right: 358px;
+    
     }
 }
 
@@ -356,12 +384,16 @@ body{
     }
     .playerandprops{
         background-image: url("Assets/Images/playerandprops.png");
-        width: 766px;
-        height: 273px;
-        margin-top: -372px;
-        margin-left: 119px;
-        transform: scale(.8);
-        position: relative;
+        position: absolute;
+        z-index: -1;
+        image-rendering: pixelated;
+        transform: scale(4);
+        top: -141px;
+        /* width: 100%; */
+        height: 395px;
+        width: 440px;
+        right: -426px;
+        margin-right: 358px;
     
     }
 
@@ -372,7 +404,6 @@ body{
         width: 125%;
         height: 200px;
         margin-left: -12%;
-        margin-top: -90px;
         transform: scale(.8);
         position: relative;
     }
@@ -380,7 +411,6 @@ body{
     .content{
         position:absolute;
         top:400px;
-        background-color:#001408;
         width:100%;
         margin-left: 0;
         margin-right: 0;
@@ -392,13 +422,10 @@ body{
 
   
 @media only screen and (max-width: 1000px) {
-html{
-    font-size:32px;
-}
+
     .content{
         position:absolute;
         top:400px;
-        background-color:#001408;
         width:100%;
         margin-left: 0;
         margin-right: 0;
@@ -409,6 +436,7 @@ html{
         flex-direction: column;
         width:100%;
         padding: 24px 24px 0 24px;
+        margin-top: -24px;
     }
     .playtype-header{
         width:100%;

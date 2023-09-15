@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Kingdom of Light</title>
+    <title>Project Delta Studio</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
@@ -12,220 +12,465 @@
 </head>
 
 <body>
-    <!-- <div class="app-bar">
-        Kingdom of Light
-    </div> -->
-    <!-- 
-    <div class="company">
-        Flying Fire Presents:
-    </div> -->
+    <img class="hero" src="Assets/Images/Screenshots/Parallax.png">
+    <img class="title" src="Assets/Images/logo.png" style="z-index: 10;">
 
-
-
-
-    <img class="hero " src="Assets/Images/overlook1.png">
-    <img class="title" src="Assets/Images/overlook5.png" style="z-index: 10;">
-
-    <div class="content">
-        <div class="groundtile">
-        </div>
-        <div class="playerandprops">
-
-        </div>
+    <div class="content" background-color:black;>
+        <div class="groundtile"></div>
+        <div class="playerandprops"></div>
 
         <div class="gif-container">
-
-            <div class="content-header" style="background-color:#001408;">
-                Easy to Pick Up, Challenging to Master
-            </div>
-            <div class="content-subheader" style="background-color:#001408;">
-                Designed for the Journey
-            </div>
-            <div class="playtype-section" style="background-color:#001408;">
-                <div class="video-container" style="filter:brightness(.75);">
-                    <iframe class="video" src="https://www.youtube.com/embed/l-lNw7JQk7U" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+            <div style="background-color:#030a11;">
+                <div class="content-header">Project Delta Studio - Mod Tools</div>
+                <div class="content-subheader">Build Your Own Classic Metroidvania World
+                </div>
+                <div class="content-subheader2">
+                    Currently available in Early Access as of June 2023
+                    <a href="https://store.steampowered.com/app/1653520/Project_Delta/">on Steam</a>
+                </div>
+                <div class="content-subheader2">
+                    (Mod Tools Currently in Development, expected available 2024) 
+                </div>
+                <div class="content-subheader2">
+                    <a href="https://discord.gg/vCm56TTQqA">Join the Discord</a>  
                 </div>
             </div>
-            <div class="playtype-section" style="background-color:#001408;">
-                <div class="playtype-header" style="color:white;">
-                    <div>Metroidvania</div>
+
+            <div class="playtype-section" style="background-color:#030a11;">
+                <div class="playtype-header" style="color:white; background-color:#030a11;">
+                    <div>World Builder</div>
                     <div class="hero-description">
-                        "What profit is it to a man if he gains the whole world and loses his own soul?" <br><br>
-                        The classic formula. Explore, get lost, power up, open new paths forward. <br>
-                        Everything about this game stems from that which makes Metroidvania's fun to play.
+                        The heart of the mod tool. Create your own custom metroidvania world intuitively, piece by
+                        piece.
                     </div>
                 </div>
                 <div class="playtype-description">
                     <div class="playtype-description-subsection">
                         <div>
-                            <img class="gif" src="Assets/Images/Screenshots/lightforest.jpg">
+                            <img class="gif" src="Assets/Gif/worldbuilder-1-map.gif">
                         </div>
                         <div>
-                            <div class="description-header">Venture through Light and Darkness</div>
-                            Learn new mechanics in the light, and put them to the test in the darkness.
+                            <div class="description-header">Intuitive Map Placement</div>
+                            Drag and drop rooms into place viewing side by side the map and the rooms. Lines connect
+                            doors ensuring even when moving rooms around you know the flow of the game.
                         </div>
                     </div>
 
                     <div class="playtype-description-subsection">
                         <div>
-                            <img class="gif" src="Assets/Images/Screenshots/dark puzzles.jpg">
+                            <img class="gif" src="Assets/Gif/worldbuilder-2-doors.gif">
                         </div>
                         <div>
-                            <div class="description-header">Power Ups Around Every Corner</div>
-                            Grow stronger through exploration.<br><br>
-                            If you get stuck going in one direction there’s many other paths to explore.<br><br>
-                            Exploration and killing enemies rewards you with money for purchasing
-                            movement techniques at the town which will make moving around more fun, dodging enemies
-                            easier, and allow for clearing new obstacles.<br><br>
-                            The final version plans to be very non-linear and open after an initial section of linearity.
+                            <div class="description-header">Doorway Linking Made Easy</div>
+                            Effortlessly connect rooms with doors, ensuring seamless exploration for players.
                         </div>
                     </div>
-
 
                     <div class="playtype-description-subsection">
                         <div>
-                            <img class="gif" src="Assets/Images/Screenshots/darkforest.jpg">
+                            <img class="gif" src="Assets/Gif/worldbuilder-3-enemies.gif">
                         </div>
                         <div>
-                            <div class="description-header">Explore an Interconnected World</div>
-                            Multiple paths to the same goal. <br><br>
-                            Guides the player with an invisible hand by preventing backtracking to too many areas at a
-                            time.
+                            <div class="description-header">Populate With Foes and Goods</div>
+                            Add custom enemies and game objects to the world, ensuring your world is as treacherous as
+                            it is
+                            expansive.
                         </div>
                     </div>
+                </div>
+            </div>
 
+
+            <div class="groundtile" style="background-image: url(Assets/Images/Ground/surface.png)"></div>
+
+
+            <div class="playtype-section" style="background-color:#000f06;">
+                <div class="playtype-header" style="color:white;background-color:#000f06;">
+                    <div>Room Editor</div>
+                    <div class="hero-description">
+                        The building blocks of your world. Design the collision layers of rooms and optionally label
+                        with routes for use with the base game's generator and route solver.
+                    </div>
+                </div>
+                <div class="playtype-description">
+                    <div class="playtype-description-subsection">
+                        <div>
+                            <img class="gif" src="Assets/Gif/roomeditor-1-tileset.gif">
+                        </div>
+                        <div>
+                            <div class="description-header">Tile-Based Collider Placement</div>
+                            A familiar tileset editor for placing colliders. Standard operations like copying, flipping,
+                            and rotating are at your disposal.
+                        </div>
+                    </div>
 
                     <div class="playtype-description-subsection">
                         <div>
-                            <img class="gif" src="Assets/Images/Screenshots/map.jpg">
+                            <img class="gif" src="Assets/Gif/roomeditor-2-Nodes.gif">
                         </div>
                         <div>
-                            <div class="description-header">Detailed In-Game Map</div>
-                            The in game map hints to important locations and keeps track of where the player
-                            has been so in subsequent play sessions they can pick up where they left off.
+                            <div class="description-header">Node Configuration</div>
+                            Set up room nodes and doors, allowing you to set hidden nodes for creating secret areas.
                         </div>
                     </div>
 
+                    <div class="playtype-description-subsection">
+                        <div>
+                            <img class="gif" src="Assets/Gif/roomeditor-3-routes.gif">
+                        </div>
+                        <div>
+                            <div class="description-header">Route Mapping</div>
+                            Detail the requirements for traversing between nodes, this optional step is useful for
+                            randomizers and creating data that can be used for training machine learning models which
+                            generate tile configurations from labels alone.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="groundtile" style="background-image: url(Assets/Images/Ground/temple.png)"></div>
+
+
+            <div class="playtype-section" style="background-color:#0d0d0d;">
+                <div class="playtype-header" style="color:white;background-color:#0d0d0d;">
+                    <div>Tileset Rules Editor</div>
+                    <div class="hero-description">
+                        Refine every corner of your realm with precision. Customize the rules that govern tileset
+                        placement in rooms.
+                    </div>
+                </div>
+                <div class="playtype-description">
+                    <div class="playtype-description-subsection">
+                        <div>
+                            <img class="gif" src="Assets/Gif/tileset-1-upload.gif">
+                        </div>
+                        <div>
+                            <div class="description-header">Easy Tileset Upload</div>
+                            Upload your own tilesets, making them readily available for all your room designs. Create a
+                            custom tileset rules, or duplicate one that already exists just changing the uploaded
+                            sprite.
+                        </div>
+                    </div>
+
+                    <div class="playtype-description-subsection">
+                        <div>
+                            <img class="gif" src="Assets/Gif/tileset-2-rules.gif">
+                        </div>
+                        <div>
+                            <div class="description-header">Collider Pattern Matching</div>
+                            Decide which tile fits each collider pattern, ensuring gameplay and visual consistency
+                            across all rooms and saving time by removing the redundancy of basic aesthetic tile
+                            placement.
+                        </div>
+                    </div>
+
+                    <div class="playtype-description-subsection">
+                        <div>
+                            <img class="gif" src="Assets/Gif/tileset-3-room tester.gif">
+                        </div>
+                        <div>
+                            <div class="description-header">Room Preview</div>
+                            Test your tileset rules on any room, tweaking and refining until every detail
+                            aligns with your vision.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="groundtile" style="background-image: url(Assets/Images/Ground/forest.png)"></div>
+
+            <div class="playtype-section" style="background-color:#0f0700;">
+                <div class="playtype-header" style="color:white;background-color:#0f0700;">
+                    <div>Region Editor</div>
+                    <div class="hero-description">
+                        Transform every space with layers of depth, breathing life into every corner of your world.
+                    </div>
+                </div>
+                <div class="playtype-description">
+                    <div class="playtype-description-subsection">
+                        <div>
+                            <img class="gif" src="Assets/Gif/parallax-1-adding.gif">
+                        </div>
+                        <div>
+                            <div class="description-header">Parallax Customization</div>
+                            Upload images for each layer and define specific properties to capture the depth of a
+                            region.
+                        </div>
+                    </div>
+
+                    <div class="playtype-description-subsection">
+                        <div>
+                            <img class="gif" src="Assets/Gif/parallax-2-preview.gif">
+                        </div>
+                        <div>
+                            <div class="description-header">Real-time Region Preview</div>
+                            Adjust, refine, and perfect your regions with the ability to load rooms and view how a
+                            specific view would look in game, eliminating guesswork from the design process.
+                        </div>
+                    </div>
+
+                    <div class="playtype-description-subsection">
+                        <div>
+                            <img class="gif" src="Assets/Gif/parallax-3-tiles.gif">
+                        </div>
+                        <div>
+                            <div class="description-header">Tileset Rules Integration</div>
+                            Apply and blend multiple tileset rules to a region, ensuring visual consistency and
+                            enhancing the distinct identity of each area.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="groundtile" style="background-image: url(Assets/Images/Ground/innercaverns.png)"></div>
+
+
+            <div class="playtype-section" style="background-color:#0f0009;">
+                <div class="playtype-header" style="color:white;background-color:#0f0009;">
+                    <div>Sprite Sheet Editor</div>
+                    <div class="hero-description">
+                        Upload sprite sheets and define animations with precision easily allowing the creation of custom
+                        enemies and items.
+                    </div>
+                </div>
+                <div class="playtype-description">
+                    <div class="playtype-description-subsection">
+                        <div>
+                            <img class="gif" src="Assets/Gif/sprite-1-loading.gif">
+                        </div>
+                        <div>
+                            <div class="description-header">Simple Sprite Upload</div>
+                            Get your artworks game-ready in a snap. Seamlessly upload sprite sheets and initiate the
+                            animation process with ease.
+                        </div>
+                    </div>
+
+                    <div class="playtype-description-subsection">
+                        <div>
+                            <img class="gif" src="Assets/Gif/sprite-2-frameproperties.gif">
+                        </div>
+                        <div>
+                            <div class="description-header">Frame Properties</div>
+                            Adjust properties for changing the timing of the animation, as well as set triggers that
+                            could be used for events in the game that occur only on specific frames.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="groundtile" style="background-image: url(Assets/Images/Ground/aion.png)"></div>
+
+
+            <div class="playtype-section" style="background-color:#0d0d0d;">
+                <div class="playtype-header" style="color:white;background-color:#0d0d0d;">
+                    <div>Game Object Builder</div>
+                    <div class="hero-description">
+                        "To build or not to build, that is the question." Unleash your inner game designer with our
+                        node-based system and craft intricate game objects with ease.
+                    </div>
+                </div>
+                <div class="playtype-description">
+                    <div class="playtype-description-subsection">
+                        <div>
+                            <img class="gif" src="Assets/Images/Screenshots/NodesSword.png">
+                        </div>
+                        <div>
+                            <div class="description-header">Node-based System</div>
+                            Create new game objects with our flexible node system or modify existing ones allowing for
+                            the creation of custom enemies, items, and more.
+                        </div>
+                    </div>
 
                     <div class="playtype-description-subsection" style="border-bottom:none">
                         <div>
-                            <img class="gif" src="Assets/Images/Screenshots/lighting.jpg">
+                            <img class="gif" src="Assets/Gif/node-3-contextual.gif">
                         </div>
                         <div>
-                            <div class="description-header">Custom Pixel Based Lighting</div>
-                            Breathtaking views created by blending modern technology with retro
-                            pixel art.
+                            <div class="description-header">Contextual Events and Actions</div>
+                            Connect color coded sockets and drag sockets to create nodes, events, or actions related to
+                            that socket. Allowing for maintaining flow during design and only providing useful options.
+                        </div>
+                    </div>
+
+                    <div class="playtype-description-subsection">
+                        <div>
+                            <img class="gif" src="Assets/Images/Screenshots/TerronLogic.png">
+                        </div>
+                        <div>
+                            <div class="description-header">Create and Customize Enemies</div>
+                            Breathe life into your adversaries. Design unique behaviors, patterns, and actions that are
+                            as complex or simple as you want.
+                        </div>
+                    </div>
+
+                    <div class="playtype-description-subsection">
+                        <div>
+                            <img class="gif" src="Assets/Images/Screenshots/EntryMainExit.png">
+                        </div>
+                        <div>
+                            <div class="description-header">Entry, Main, and Exit Phases</div>
+                            State machines include by default 3 phases which can be easily utilized to capture the
+                            Anticipation, Execution, and Recovery of an action to prevent creating bloated state
+                            machines. Use all 3 per state or just 1 or 2.
                         </div>
                     </div>
 
                 </div>
             </div>
 
-            <div class="ground2tile">
-            </div>
-            <div class="playtype-section" style="background-color:#000;">
-                <div class="playtype-header" style="background-color:#000;">
-                    <div>Lore</div>
+
+            <div class="groundtile" style="background-image: url(Assets/Images/Ground/caverns.png)"></div>
+
+            <div class="playtype-section" style="background-color:#0f0000;">
+                <div class="playtype-header" style="color:white;background-color:#0f0000;">
+                    <div>Variations Editor</div>
                     <div class="hero-description">
-                        "To get lost in a world, you must first believe that is has something to offer." <br><br>
-                        What's the fun of playing a Metroidvania without purpose? Kingdom of Light has 7-8 planned "Story Arcs" which 
-                        twist and turn the player's experience and give meaning to everything you do.
+                        "Variety is the very spice of life." Dive deep into customization, fine-tuning game objects to
+                        quickly
+                        create unique variations of game objects.
                     </div>
                 </div>
                 <div class="playtype-description">
                     <div class="playtype-description-subsection">
                         <div>
-                            <img class="gif" src="Assets/Images/Screenshots/purpose.jpg">
+                            <img class="gif" src="Assets/Images/Screenshots/Exposable.png">
                         </div>
                         <div>
-                            <div class="description-header">Fight an Age Old Battle</div>
-                            Darkness has overtaken the land bringing with it their ideals of spreading suffering. <br /><br />
-                            Find those that still have the will to fight and gain strength to restore light to the land.
+                            <div class="description-header">Expose Variables</div>
+                            Expose variables from the Game Object Builder to allow for quick adjustments in creating
+                            unique variations, allowing you spend less time tinkering and more time creating.
                         </div>
                     </div>
-
 
                     <div class="playtype-description-subsection">
                         <div>
-                            <img class="gif" src="Assets/Images/Screenshots/lore.jpg">
+                            <img class="gif" src="Assets/Images/Screenshots/Variations.png">
                         </div>
                         <div>
-                            <div class="description-header">Deep Backstory</div>
-                            Extensive lore prevalent through the environments and characters met on your journey. 
-                            Uncover the secrets of the world and break the cycle of despair, or give in to it.
+                            <div class="description-header">Create Variations</div>
+                            Modify the exposed variables to create variations of the game object, allowing for the
+                            creation of unique enemies, items, and more.
                         </div>
                     </div>
-
-
-                    <div class="playtype-description-subsection">
-                        <div>
-                            <img class="gif" src="Assets/Images/Screenshots/forsake.jpg">
-                        </div>
-                        <div>
-                            <div class="description-header">Metroidvania-Centric Front Story</div>
-                            The story which the main character plays through is designed to emphasize familiar Metroidvania concepts,
-                             as well as make them question their actions.
-                        </div>
-                    </div>
-
-                    <div class="playtype-description-subsection" style="border-bottom:none">
-                        <div>
-                            <img class="gif" src="Assets/Images/Screenshots/loremusic.jpg">
-                        </div>
-                        <div>
-                            <div class="description-header">Meaning in Music</div>
-                            Motifs utilized throughout the soundtrack. Musicial ideas are used, reused, corrupted, and modified to provide additional meaning and elicit emotions in different circumstances.<br/><br/>
-                            Some songs have lyrics which can optionally be seen on screen to show these concepts to people who aren't familiar with music theory.
-                        </div>
-                    </div>
-
                 </div>
             </div>
 
-            <div class="ground3tile">
-            </div>
-            <div class="playtype-section" style="background-color:#09000e;">
-                <div class="playtype-header" style="background-color:#09000e; color: #60eeff">
-                    <div>Speed Runners</div>
+
+
+            <div class="groundtile" style="background-image: url(Assets/Images/Ground/bog.png)"></div>
+
+            <div class="playtype-section" style="background-color:#030d00;">
+                <div class="playtype-header" style="color:white;background-color:#030d00;">
+                    <div>Item Editor</div>
                     <div class="hero-description">
-                        "Perfection is the result of getting so used to facing darkness that you forget the feeling of fear." <br><br>
-                        You long for the pressure of being near achieving a seemingly impossible goal where one small
-                        mistake will cause you to lose all your progress. <br> <br>
-                        You're looking for a game that will force you to master all the hidden mechanics and execute
-                        them flawlessly for a legendary victory.<br><br>
-                        Not many will travel this path, but it is also what makes it so rewarding.
+                        Design items that players will cherish, be it for their utility or the stories they tell.
                     </div>
                 </div>
                 <div class="playtype-description">
                     <div class="playtype-description-subsection">
                         <div>
-                            <img class="gif" src="Assets/Images/Screenshots/sequence.jpg">
+                            <img class="gif" src="Assets/Images/Screenshots/Items.png">
                         </div>
                         <div>
-                            <div class="description-header">Designed For Speedrunners</div>
-                            Movement Mechanics are designed to be fluid and build on top of each other. Maintain speed across rooms by chaining together various techniques.<br><br>
-                            Knowledge gating allows you to play through the game differently on subsequent playthroughs and chart different routes through the game.
+                            <div class="description-header">Craft Unique Items</div>
+                            Set details and upload icons for items. Set stats and apply overrides to game object
+                            variations that would be spawned when this item is used.
                         </div>
                     </div>
 
-                    <div class="playtype-description-subsection"  style="border-bottom:none">
+                    <div class="playtype-description-subsection">
                         <div>
-                            <img class="gif" src="Assets/Images/Screenshots/custom.jpg">
+                            <img class="gif" src="Assets/Images/Screenshots/ItemsInGame.png">
                         </div>
                         <div>
-                            <div class="description-header">Customize Your Gameplay</div>
-                            Essence Remnants can be found across the game world and customize various aspects of the game. <br><br>
-                            Various Remnants come with trade offs which increase difficulty and risk, but allow traversing through the game quicker.
+                            <div class="description-header">In Game View</div>
+                            Adding items quickly allows them to be used in game and tested, allowing for quick iteration
+                            and refinement.
                         </div>
                     </div>
                 </div>
             </div>
 
 
+            <div class="groundtile" style="background-image: url(Assets/Images/Ground/pipes.png)"></div>
+
+
+            <div class="playtype-section" style="background-color:#080808;">
+                <div class="playtype-header" style="color:white;background-color:#080808;">
+                    <div>Generator</div>
+                    <div class="hero-description">
+                        "Imagination's blueprint." Harness advanced AI tech to produce inspiring visuals tailored to the
+                        game's art style. (Comfy UI, SDXL, and rembg to be acquired and installed separately)
+                    </div>
+                </div>
+                <div class="playtype-description">
+                    <div class="playtype-description-subsection">
+                        <div>
+                            <img class="gif" src="Assets/Images/Screenshots/Generator.png">
+                        </div>
+                        <div>
+                            <div class="description-header">AI-Powered Image Creation</div>
+                            Connect to Comfy UI's API and use custom workflows for Stable Diffusion XL to generate
+                            unique art assets for the
+                            game. Utilize a LoRA (Low Rank Adaptor) specifically trained on art from Project Delta to
+                            generate creatures and objects that fit within the artstyle of the world.
+                        </div>
+                    </div>
+
+                    <div class="playtype-description-subsection">
+                        <div>
+                            <img class="gif" src="Assets/Images/Screenshots/SeamlessTiled.png">
+                        </div>
+                        <div>
+                            <div class="description-header">Seamless Tiled Parallax Generation</div>
+                            Generate the base of assets you could use for parallax which are seamlessly tiled, allowing
+                            for easy parallax creation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="groundtile" style="background-image: url(Assets/Images/Ground/essence.png)"></div>
+
+
+            <div class="playtype-section" style="background-color:#0f0f0f;">
+                <div class="playtype-header" style="color:white;background-color:#0f0f0f;">
+                    <div>Image Processor</div>
+                    <div class="hero-description">
+                        Refine art assets to seamlessly blend with the game's distinctive style.
+                    </div>
+                </div>
+                <div class="playtype-description">
+                    <div class="playtype-description-subsection">
+                        <div>
+                            <img class="gif" src="Assets/Gif/processor.gif">
+                        </div>
+                        <div>
+                            <div class="description-header">Quickly Process to the Game's Palette</div>
+                            Resize larger images to be pixel perfect and compare size to the game's player. Then convert
+                            the image to the game's specific palette, ensuring a consistent and harmonious visual
+                            experience throughout. Finally refine the lighting and contrast to meet your vision before
+                            saving the processed image for animation or direct use in game.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="groundtile" style="background-image: url(Assets/Images/Ground/templeruins.png)"></div>
+            <!-- Footer -->
+            <div class="footer">© 2023 Flying Fire, LLC</div>
         </div>
-        <div class="footer">© 2019 - 2020 Flying Fire, LLC</div>
     </div>
 </body>
 
