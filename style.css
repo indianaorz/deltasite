@@ -50,13 +50,6 @@ img{
     padding-bottom:128px;    
 }
 
-.video-container {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-    margin-bottom:-8em;
-}
 
 .video {
     position: absolute;
@@ -446,13 +439,6 @@ body{
         padding-top: 0px;
     }
 
-    .video-container {
-        position: relative;
-        width: 100%;
-        height: 0;
-        padding-bottom: 56.25%;
-        margin-bottom:0em;
-    }
     
     .video {
         position: absolute;
