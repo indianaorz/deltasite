@@ -127,7 +127,7 @@ body {
 
 .hero-description {
     font-size: .4em;
-    opacity: .6;
+    opacity: .8;
     margin-top: 12px;
     border-top: solid 1px;
     padding-top: 13px;
@@ -289,7 +289,7 @@ body {
     color: white;
     width: 50%;
     min-width: 400px;
-    opacity: .7;
+    opacity: 1;
     font-weight: 100;
     margin-left: 62px;
 }
