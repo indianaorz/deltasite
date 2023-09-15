@@ -69,6 +69,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    filter: brightness(1.25);
     background-color: black;
 }
 
