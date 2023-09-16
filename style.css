@@ -375,12 +375,6 @@ body {
 
 @media only screen and (max-width: 1212px) {
 
-    html {
-        font-size: 32px;
-    }
-    .playtype-section{
-        font-size:20px;
-    }
     .company {
         top: 3em;
     }
@@ -416,6 +410,9 @@ body {
 
 @media only screen and (max-width: 1000px) {
 
+    .playtype-section{    
+        font-size: 6vw;
+    }
     .content {
         position: absolute;
         top: 400px;
@@ -435,10 +432,10 @@ body {
 
     .playtype-header {
         width: 100%;
-        font-size: 3em;
         padding-bottom: 12px;
         border-bottom: solid 1px white;
         padding-top: 0px;
+        font-size: 12vw;
     }
 
 
