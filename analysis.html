@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Analysis Viewer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/abcjs-plugin-min.js"></script>
+    <style>
+        /* Simple inline loading indicator styling */
+        #loading-indicator {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 200px;
+          color: #aaa;
+          font-size: 1.2em;
+        }
+      </style>
+</head>
+
+<body>
+    <header class="main-header">
+        <h1>Music Analysis Viewer</h1>
+        <div class="header-info">
+            <span>Displaying analysis from embedded data.</span>
+            <span>Click <i class="fas fa-play"></i> to listen.</span>
+        </div>
+    </header>
+
+
+    <!-- Loading indicator shown while data script is fetched -->
+    <div id="loading-indicator">Loading analysis...</div>
+
+    <div class="analysis-container" id="analysis-content">
+        <p>Processing analysis...</p>
+    </div>
+    <script src="js/gm-mapping.js"></script>
+    <script src="js/static-pianoroll.js"></script>
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>

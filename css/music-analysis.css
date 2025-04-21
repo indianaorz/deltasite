@@ -1,0 +1,109 @@
+/* static/css/music-analysis.css - Stylish Dark Theme for Analysis List Page */
+
+/* --- Base & Layout --- */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .main-wrapper {
+    margin-top: 72px; /* offset header height */
+    padding: 40px 20px;
+  }
+  
+  /* --- Site Header (reuse or adapt) --- */
+  .site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1f1f1f;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    z-index: 20;
+  }
+  .site-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 14px 0;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+  }
+  .site-header nav ul li a {
+    color: #e0e0e0;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: color 0.2s;
+  }
+  .site-header nav ul li a:hover {
+    color: #6cb2f5;
+  }
+  
+  /* --- Analysis List Section --- */
+  .analysis-list {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .analysis-list header {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .analysis-list header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #ffffff;
+  }
+  .analysis-list header p {
+    font-size: 1em;
+    color: #aaa;
+    margin-top: 8px;
+  }
+  
+  .analysis-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+  }
+  
+  .analysis-list li {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .analysis-list li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  }
+  
+  .analysis-list li a {
+    display: block;
+    padding: 16px;
+    color: #e0e0e0;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .analysis-list li a .post-meta {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #999;
+  }
+  
+  /* --- Responsive Tweaks --- */
+  @media (max-width: 600px) {
+    .analysis-list ul {
+      grid-template-columns: 1fr;
+    }
+  }
+  
