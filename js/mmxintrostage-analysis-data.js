@@ -251,13 +251,13 @@ M:4/4
 L:1/16
 K:Cmin
 %%score (V1 V2)
+V:2 name="Drums" snm="Drums" clef=treble perc=yes
+%%MIDI channel 10
+[V:2] B,,,3 z E,,3 E,, E,,2 B,,,3 z E,,2 | |]
 V:1 name="Synth Bass 1" snm="Synth Bass 1" clef=treble
 %%MIDI program 38
 %%MIDI channel 0
 [V:1] C,,3 z4 E,, _G,,2 B,,,2 z2 =B,,,2 | |]
-V:2 name="Drums" snm="Drums" clef=treble perc=yes
-%%MIDI channel 10
-[V:2] B,,,3 z E,,3 E,, E,,2 B,,,3 z E,,2 | |]
 </abc>
 
 This is "fine", I mean it'll do if you're just writing something to get the idea down. That's actually how I like to do things some times. A lot of the times I can't really get creative until I have at least SOMETHING down so copying the rhythm from something else and then adding on top of that is a good way to get started. Lets actually take a look at what that could look like.
@@ -269,13 +269,13 @@ M:4/4
 L:1/16
 K:Cmin
 %%score (V1 V2)
+V:2 name="Drums" snm="Drums" clef=treble perc=yes
+%%MIDI channel 10
+[V:2] B,,,3 z E,,3 E,, E,,2 B,,,3 z E,,2 | |]
 V:1 name="Synth Bass 1" snm="Synth Bass 1" clef=treble
 %%MIDI program 38
 %%MIDI channel 0
 [V:1] C,,3 z C,,3  C,, C,,2 C,,3 z C,,2 | |]
-V:2 name="Drums" snm="Drums" clef=treble perc=yes
-%%MIDI channel 10
-[V:2] B,,,3 z E,,3 E,, E,,2 B,,,3 z E,,2 | |]
 </abc>
 
 So if we were just getting started, we wouldn't really have any melodic idea yet, so we'd just repeat on the rhythm of the drums on the root note (right now C, since we're in C minor). And actually listening to this you can kinda hear how it feels like it's turning into the actual section. 
@@ -295,13 +295,13 @@ M:4/4
 L:1/16
 K:Cmin
 %%score (V1 V2)
+V:2 name="Drums" snm="Drums" clef=treble perc=yes
+%%MIDI channel 10
+[V:2] B,,,3 z E,,3 E,, E,,2 B,,,3 z E,,2 | |]
 V:1 name="Synth Bass 1" snm="Synth Bass 1" clef=treble
 %%MIDI program 38
 %%MIDI channel 0
 [V:1] C,,3 C,, z2 C,, C,, C,,2 C,,2 C,,2 C,,2 | |]
-V:2 name="Drums" snm="Drums" clef=treble perc=yes
-%%MIDI channel 10
-[V:2] B,,,3 z E,,3 E,, E,,2 B,,,3 z E,,2 | |]
 </abc>
 
 So now that the rhythm is down - and you can hear that just the rhythm is a BIG part of what makes this section this section. 
@@ -321,16 +321,16 @@ M:4/4
 L:1/16
 K:Cmin
 %%score (V1 V2 V3)
-V:1 name="Synth Bass 1" snm="Synth Bass 1" clef=treble
-%%MIDI program 38
-%%MIDI channel 0
-[V:1] C,,3 C, z2 G,, ^D,, ^F,,2 ^A,,,2 A,,,2 B,,,2 | |]
 V:2 name="Drums" snm="Drums" clef=treble perc=yes
 %%MIDI channel 10
 [V:2] B,,,3 z E,,3 E,, E,,2 B,,,3 z E,,2 | |]
 V:3 name="Drums" snm="Drums" clef=treble perc=yes
 %%MIDI channel 10
 [V:3] [^A,,^C,E,]3 z ^A,,3 ^F,, [^A,,E,]2 ^A,,3 z ^A,,2 | |]
+V:1 name="Synth Bass 1" snm="Synth Bass 1" clef=treble
+%%MIDI program 38
+%%MIDI channel 0
+[V:1] C,,3 C, z2 G,, ^D,, ^F,,2 ^A,,,2 A,,,2 B,,,2 | |]
 </abc>
 
 Okay so the only thing we're missing is the simplest part, the Synth Brass.
@@ -357,13 +357,13 @@ M:4/4
 L:1/16
 K:Cmin
 %%score (V1 V2)
+V:2 name="Drums" snm="Drums" clef=treble perc=yes
+%%MIDI channel 10
+[V:2] B,,,3 z E,,3 E,, E,,2 B,,,3 z E,,2 | |]
 V:1 name="SynthBrass 2" snm="Synth Brass 2" clef=treble
 %%MIDI program 63
 %%MIDI channel 0
 [V:1] z10 [G,,D,]3 z [G,,D,]2 | |]
-V:2 name="Drums" snm="Drums" clef=treble perc=yes
-%%MIDI channel 10
-[V:2] B,,,3 z E,,3 E,, E,,2 B,,,3 z E,,2 | |]
 </abc>
 
 So it's not adding any rhythmic complexity, just some atmosphere and harmony. The chord is technically a G5 (G and D) which is the V chord in C minor which finalizes the B note in the bass. A V chord is a very common way to end a section, as it creates a sense of tension that resolves into the next section. Naturally the V wants to go to the I chord, which in this case would be G -> Cm. So all this harmonic and rhymic complexity culminates here in a smooth way to get right into the action.
@@ -378,6 +378,12 @@ M:4/4
 L:1/16
 K:Cmin
 %%score (V1 V2 V3 V4)
+V:3 name="Drums" snm="Drums" clef=treble perc=yes
+%%MIDI channel 10
+[V:3] B,,,3 z E,,3 E,, E,,2 B,,,3 z E,,2 | |]
+V:4 name="Drums" snm="Drums" clef=treble perc=yes
+%%MIDI channel 10
+[V:4] [^A,,^C,E,]3 z ^A,,3 ^F,, [^A,,E,]2 ^A,,3 z ^A,,2 | |]
 V:1 name="Synth Bass 1" snm="Synth Bass 1" clef=treble
 %%MIDI program 38
 %%MIDI channel 0
@@ -386,12 +392,6 @@ V:2 name="SynthBrass 2" snm="Synth Brass 2" clef=treble
 %%MIDI program 63
 %%MIDI channel 0
 [V:2] z10 [G,,D,]3 z [G,,D,]2 | |]
-V:3 name="Drums" snm="Drums" clef=treble perc=yes
-%%MIDI channel 10
-[V:3] B,,,3 z E,,3 E,, E,,2 B,,,3 z E,,2 | |]
-V:4 name="Drums" snm="Drums" clef=treble perc=yes
-%%MIDI channel 10
-[V:4] [^A,,^C,E,]3 z ^A,,3 ^F,, [^A,,E,]2 ^A,,3 z ^A,,2 | |]
 </abc>
 
 I mean it's short and not overly complex, but it is pretty complicated. Hopefully looking at it broken down like that gives a good idea on how to approach a section like this.
