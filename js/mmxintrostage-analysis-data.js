@@ -408,32 +408,32 @@ M:4/4
 L:1/16
 K:Cmin
 %%score (V1 V2 V3 V4 V5 V6 V7)
+V:6 name="Drums" snm="Drums" clef=treble perc=yes
+%%MIDI channel 10
+[V:6] B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,2 E,, E,, D,, D,, B,,, B,,, C,, C,, | B,,,3 z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,2 E,, E,, D,, D,, B,,, B,,, C,, |]
+V:7 name="Drums" snm="Drums" clef=treble perc=yes
+%%MIDI channel 10
+[V:7] [^A,,^C,] | ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, [^A,,^C,] ^A,, | [^A,,^C,] ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | [^A,,^C,] ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, [^A,,^C,] ^A,, | [^A,,^C,] ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, |]
 V:1 name="Distortion Guitar" snm="Distortion Guitar" clef=treble
 %%MIDI program 30
 %%MIDI channel 0
-[V:1] z4 ^d3 | z ^A2 B2 z2 c17 | z5 ^d3 | z ^A2 B2 z2 c2 | z2 c2 ^d2 g2 f2 d2 =d2 ^A2 | z2 ^g3 z =g2 f2 ^d2 z2 =d2 | ^d2 z4 c5 z =d2 ^d2 | f2 d3 z ^d3 z =d3 z ^A2 | G15 z5 ^d3 | z ^A2 B2 z2 c17 | z5 ^d3 | z ^A2 B2 z2 c2 | z2 c2 ^d2 c2 f2 ^f2 =f2 c2 | z2 ^g3 z =g2 f2 c'3 z ^a2 | ^g2 z4 f5 z d2 ^d2 | f2 d3 z ^d3 z f3 z g2 | g15 |]
+[V:1] z4 e3 | z B2 =B2 z2 c17 | z5 e3 | z B2 =B2 z2 c2 | z2 c2 e2 g2 f2 e2 d2 B2 | z2 a3 z g2 f2 e2 z2 d2 | e2 z4 c5 z d2 e2 | f2 d3 z e3 z d3 z B2 | G15 z5 e3 | z B2 =B2 z2 c17 | z5 e3 | z B2 =B2 z2 c2 | z2 c2 e2 c2 f2 _g2 f2 c2 | z2 a3 z g2 f2 c'3 z b2 | a2 z4 f5 z d2 e2 | f2 d3 z e3 z f3 z g2 | g15 |]
 V:2 name="Distortion Guitar" snm="Distortion Guitar" clef=treble
 %%MIDI program 30
 %%MIDI channel 0
-[V:2] z5 ^d3 | z ^A2 B2 z2 c17 | | z5 ^d3 z ^A2 B2 z2 c2 | z2 c2 ^d2 g2 f2 d2 =d2 ^A2 | z2 ^g3 z =g2 f2 ^d2 z2 =d2 | ^d2 z4 c5 z =d2 ^d2 | f2 d3 z ^d3 z =d3 z ^A2 | G15 | z5 ^d3 z ^A2 B2 z2 c17 | | z5 ^d3 z ^A2 B2 z2 c2 | z2 c2 ^d2 c2 f2 ^f2 =f2 c2 | z2 ^g3 z =g2 f2 c'3 z ^a2 | ^g2 z4 f5 z d2 ^d2 | f2 d3 z ^d3 z f3 z g2 | g15 | |]
+[V:2] z5 e3 | z B2 =B2 z2 c17 | | z5 e3 z B2 =B2 z2 c2 | z2 c2 e2 g2 f2 e2 d2 B2 | z2 a3 z g2 f2 e2 z2 d2 | e2 z4 c5 z d2 e2 | f2 d3 z e3 z d3 z B2 | G15 | z5 e3 z B2 =B2 z2 c17 | | z5 e3 z B2 =B2 z2 c2 | z2 c2 e2 c2 f2 _g2 f2 c2 | z2 a3 z g2 f2 c'3 z b2 | a2 z4 f5 z d2 e2 | f2 d3 z e3 z f3 z g2 | g15 | |]
 V:3 name="Synth Bass 1" snm="Synth Bass 1" clef=treble
 %%MIDI program 38
 %%MIDI channel 0
-[V:3] C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 G,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 G,,2 C,,2 C,,2 | ^G,,,2 G,,,2 G,,,2 G,,,2 G,,,2 G,,,2 G,,,2 G,,,2 | ^G,,,2 G,,,2 G,,,2 G,,2 G,,,2 G,,,2 G,,2 G,,,2 | D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 | ^A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 G,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 G,,2 C,,2 C,,2 | ^G,,,2 G,,,2 G,,,2 G,,,2 G,,,2 G,,,2 G,,,2 G,,,2 | ^G,,,2 G,,,2 G,,,2 G,,2 G,,,2 G,,,2 G,,2 G,,,2 | D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 | ^A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 | |]
+[V:3] C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 G,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 G,,2 C,,2 C,,2 | A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 | A,,,2 A,,,2 A,,,2 A,,2 A,,,2 A,,,2 A,,2 A,,,2 | D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 | B,,,2 B,,,2 B,,,2 B,,,2 B,,,2 B,,,2 B,,,2 B,,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 G,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 G,,2 C,,2 C,,2 | A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 | A,,,2 A,,,2 A,,,2 A,,2 A,,,2 A,,,2 A,,2 A,,,2 | D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 | B,,,2 B,,,2 B,,,2 B,,,2 B,,,2 B,,,2 B,,,2 B,,,2 | |]
 V:4 name="SynthBrass 2" snm="Synth Brass 2" clef=treble
 %%MIDI program 63
 %%MIDI channel 0
-[V:4] [G,,C,]3 | z [^D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]2 | [^D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]3 | z [^D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]2 | [^D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]2 [D,G,]3 z [^G,,C,]3 | z [C,^D,]3 z [^G,,C,]2 [C,D,]3 z [G,,C,]2 | [C,^D,]3 z [^G,,C,]2 [C,D,]3 z [G,,C,]2 [C,D,]3 z [^A,,=D,]3 | z [D,G,]3 z [^A,,D,]2 [D,G,]3 z [A,,D,]2 | [D,G,]3 z [^A,,D,]2 [D,G,]3 z [A,,D,]2 [D,G,]3 z [G,,C,]3 | z [^D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]2 | [^D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]3 | z [^D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]2 | [^D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]2 [D,G,]3 z [^G,,C,]3 | z [C,^D,]3 z [^G,,C,]2 [C,D,]3 z [G,,C,]2 | [C,^D,]3 z [^G,,C,]2 [C,D,]3 z [G,,C,]2 [C,D,]3 z [^A,,=D,]3 | z [D,G,]3 z [^A,,D,]2 [D,G,]3 z [A,,D,]2 | [D,G,]3 z [^A,,D,]2 [D,G,]3 z [A,,D,]2 [D,G,]3 |]
+[V:4] [G,,C,]3 | z [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]2 | [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]3 | z [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]2 | [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]2 [E,G,]3 z [A,,C,]3 | z [C,E,]3 z [A,,C,]2 [C,E,]3 z [A,,C,]2 | [C,E,]3 z [A,,C,]2 [C,E,]3 z [A,,C,]2 [C,E,]3 z [B,,D,]3 | z [D,G,]3 z [B,,D,]2 [D,G,]3 z [B,,D,]2 | [D,G,]3 z [B,,D,]2 [D,G,]3 z [B,,D,]2 [D,G,]3 z [G,,C,]3 | z [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]2 | [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]3 | z [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]2 | [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]2 [E,G,]3 z [A,,C,]3 | z [C,E,]3 z [A,,C,]2 [C,E,]3 z [A,,C,]2 | [C,E,]3 z [A,,C,]2 [C,E,]3 z [A,,C,]2 [C,E,]3 z [B,,D,]3 | z [D,G,]3 z [B,,D,]2 [D,G,]3 z [B,,D,]2 | [D,G,]3 z [B,,D,]2 [D,G,]3 z [B,,D,]2 [D,G,]3 |]
 V:5 name="SynthStrings 1" snm="Synth Strings 1" clef=treble
 %%MIDI program 50
 %%MIDI channel 0
-[V:5] [c^dg]31 | | z [c^dg]31 | | z [c^d^g]31 | | z [^Adg]31 | | z [c^dg]31 | | z [c^dg]31 | | z [c^d^g]31 | | z [^Adg]31 | | |]
-V:6 name="Drums" snm="Drums" clef=treble perc=yes
-%%MIDI channel 10
-[V:6] B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,2 E,, E,, D,, D,, B,,, B,,, C,, C,, | B,,,3 z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,2 E,, E,, D,, D,, B,,, B,,, C,, C,, | |]
-V:7 name="Drums" snm="Drums" clef=treble perc=yes
-%%MIDI channel 10
-[V:7] [^A,,^C,] | ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, [^A,,^C,] ^A,, | [^A,,^C,] ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | [^A,,^C,] ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, [^A,,^C,] ^A,, | [^A,,^C,] ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | |]
+[V:5] [ceg]31 | | z [ceg]31 | | z [cea]31 | | z [Bdg]31 | | z [ceg]31 | | z [ceg]31 | | z [cea]31 | | z [Bdg]31 | | |]
 </abc>
 
 I'd consider this section the main theme of the song. You can actually break it down into 2 sections, I guess we can call it Theme A (4 bars) and then Theme A Variation (4 bars).
@@ -447,32 +447,32 @@ M:4/4
 L:1/16
 K:Cmin
 %%score (V1 V2 V3 V4 V5 V6 V7)
+V:6 name="Drums" snm="Drums" clef=treble perc=yes
+%%MIDI channel 10
+[V:6] B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,2 E,, E,, D,, D,, B,,, B,,, C,, |]
+V:7 name="Drums" snm="Drums" clef=treble perc=yes
+%%MIDI channel 10
+[V:7] z1 ^A,, | ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, [^A,,^C,] ^A,, | [^A,,^C,] ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, |]
 V:1 name="Distortion Guitar" snm="Distortion Guitar" clef=treble
 %%MIDI program 30
 %%MIDI channel 0
-[V:1] z4 ^d3 | z ^A2 B2 z2 c17 | z5 ^d3 | z ^A2 B2 z2 c2 | z2 c2 ^d2 g2 f2 d2 =d2 ^A2 | z2 ^g3 z =g2 f2 ^d2 z2 =d2 | ^d2 z4 c5 z =d2 ^d2 | f2 d3 z ^d3 z =d3 z ^A2 | G15 |]
+[V:1] z4 e3 | z B2 =B2 z2 c17 | z5 e3 | z B2 =B2 z2 c2 | z2 c2 e2 g2 f2 e2 d2 B2 | z2 a3 z g2 f2 e2 z2 d2 | e2 z4 c5 z d2 e2 | f2 d3 z e3 z d3 z B2 | G15 |]
 V:2 name="Distortion Guitar" snm="Distortion Guitar" clef=treble
 %%MIDI program 30
 %%MIDI channel 0
-[V:2] z5 ^d3 | z ^A2 B2 z2 c17 | | z5 ^d3 z ^A2 B2 z2 c2 | z2 c2 ^d2 g2 f2 d2 =d2 ^A2 | z2 ^g3 z =g2 f2 ^d2 z2 =d2 | ^d2 z4 c5 z =d2 ^d2 | f2 d3 z ^d3 z =d3 z ^A2 | G15 | |]
+[V:2] z5 e3 | z B2 =B2 z2 c17 | | z5 e3 z B2 =B2 z2 c2 | z2 c2 e2 g2 f2 e2 d2 B2 | z2 a3 z g2 f2 e2 z2 d2 | e2 z4 c5 z d2 e2 | f2 d3 z e3 z d3 z B2 | G15 | |]
 V:3 name="Synth Bass 1" snm="Synth Bass 1" clef=treble
 %%MIDI program 38
 %%MIDI channel 0
-[V:3] C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 G,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 G,,2 C,,2 C,,2 | ^G,,,2 G,,,2 G,,,2 G,,,2 G,,,2 G,,,2 G,,,2 G,,,2 | ^G,,,2 G,,,2 G,,,2 G,,2 G,,,2 G,,,2 G,,2 G,,,2 | D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 | ^A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 | |]
+[V:3] C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 G,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 G,,2 C,,2 C,,2 | A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 | A,,,2 A,,,2 A,,,2 A,,2 A,,,2 A,,,2 A,,2 A,,,2 | D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 | B,,,2 B,,,2 B,,,2 B,,,2 B,,,2 B,,,2 B,,,2 B,,,2 | |]
 V:4 name="SynthBrass 2" snm="Synth Brass 2" clef=treble
 %%MIDI program 63
 %%MIDI channel 0
-[V:4] [G,,C,]3 | z [^D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]2 | [^D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]3 | z [^D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]2 | [^D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]2 [D,G,]3 z [^G,,C,]3 | z [C,^D,]3 z [^G,,C,]2 [C,D,]3 z [G,,C,]2 | [C,^D,]3 z [^G,,C,]2 [C,D,]3 z [G,,C,]2 [C,D,]3 z [^A,,=D,]3 | z [D,G,]3 z [^A,,D,]2 [D,G,]3 z [A,,D,]2 | [D,G,]3 z [^A,,D,]2 [D,G,]3 z [A,,D,]2 [D,G,]3 |]
+[V:4] [G,,C,]3 | z [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]2 | [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]3 | z [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]2 | [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]2 [E,G,]3 z [A,,C,]3 | z [C,E,]3 z [A,,C,]2 [C,E,]3 z [A,,C,]2 | [C,E,]3 z [A,,C,]2 [C,E,]3 z [A,,C,]2 [C,E,]3 z [B,,D,]3 | z [D,G,]3 z [B,,D,]2 [D,G,]3 z [B,,D,]2 | [D,G,]3 z [B,,D,]2 [D,G,]3 z [B,,D,]2 [D,G,]3 |]
 V:5 name="SynthStrings 1" snm="Synth Strings 1" clef=treble
 %%MIDI program 50
 %%MIDI channel 0
-[V:5] [c^dg]31 | | z [c^dg]31 | | z [c^d^g]31 | | z [^Adg]31 | | |]
-V:6 name="Drums" snm="Drums" clef=treble perc=yes
-%%MIDI channel 10
-[V:6] B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,2 E,, E,, D,, D,, B,,, B,,, C,, C,, | |]
-V:7 name="Drums" snm="Drums" clef=treble perc=yes
-%%MIDI channel 10
-[V:7] [^A,,^C,] | ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, [^A,,^C,] ^A,, | [^A,,^C,] ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | |]
+[V:5] [ceg]31 | | z [ceg]31 | | z [cea]31 | | z [Bdg]31 | | |]
 </abc>
 
 
@@ -487,32 +487,32 @@ M:4/4
 L:1/16
 K:Cmin
 %%score (V1 V2 V3 V4 V5 V6 V7)
-V:1 name="Distortion Guitar" snm="Distortion Guitar" clef=treble
-%%MIDI program 30
-%%MIDI channel 0
-[V:1] z4 ^d3 | | | | | | | | | z ^A2 B2 z2 c17 | z5 ^d3 | z ^A2 B2 z2 c2 | z2 c2 ^d2 c2 f2 ^f2 =f2 c2 | z2 ^g3 z =g2 f2 c'3 z ^a2 | ^g2 z4 f5 z d2 ^d2 | f2 d3 z ^d3 z f3 z g2 | g15 |]
-V:2 name="Distortion Guitar" snm="Distortion Guitar" clef=treble
-%%MIDI program 30
-%%MIDI channel 0
-[V:2] z5 ^d3 | | | | | | | | | z ^A2 B2 z2 c17 | | z5 ^d3 z ^A2 B2 z2 c2 | z2 c2 ^d2 c2 f2 ^f2 =f2 c2 | z2 ^g3 z =g2 f2 c'3 z ^a2 | ^g2 z4 f5 z d2 ^d2 | f2 d3 z ^d3 z f3 z g2 | g15 | |]
-V:3 name="Synth Bass 1" snm="Synth Bass 1" clef=treble
-%%MIDI program 38
-%%MIDI channel 0
-[V:3] C,,2 | | | | | | | | | C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 G,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 G,,2 C,,2 C,,2 | ^G,,,2 G,,,2 G,,,2 G,,,2 G,,,2 G,,,2 G,,,2 G,,,2 | ^G,,,2 G,,,2 G,,,2 G,,2 G,,,2 G,,,2 G,,2 G,,,2 | D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 | ^A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 | |]
-V:4 name="SynthBrass 2" snm="Synth Brass 2" clef=treble
-%%MIDI program 63
-%%MIDI channel 0
-[V:4] [G,,C,]3 | | | | | | | | | z [^D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]2 | [^D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]3 | z [^D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]2 | [^D,G,]3 z [G,,C,]2 [D,G,]3 z [G,,C,]2 [D,G,]3 z [^G,,C,]3 | z [C,^D,]3 z [^G,,C,]2 [C,D,]3 z [G,,C,]2 | [C,^D,]3 z [^G,,C,]2 [C,D,]3 z [G,,C,]2 [C,D,]3 z [^A,,=D,]3 | z [D,G,]3 z [^A,,D,]2 [D,G,]3 z [A,,D,]2 | [D,G,]3 z [^A,,D,]2 [D,G,]3 z [A,,D,]2 [D,G,]3 |]
-V:5 name="SynthStrings 1" snm="Synth Strings 1" clef=treble
-%%MIDI program 50
-%%MIDI channel 0
-[V:5] [c^dg]31 | | | | | | | | | | z [c^dg]31 | | z [c^d^g]31 | | z [^Adg]31 | | |]
 V:6 name="Drums" snm="Drums" clef=treble perc=yes
 %%MIDI channel 10
 [V:6] B,,,3 | | | | | | | | | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,3 z B,,,2 E,,3 z B,,,3 | z E,,3 z B,,,2 B,,,2 E,,2 B,,,2 | B,,,3 z E,,2 B,,,2 E,, E,, D,, D,, B,,, B,,, C,, C,, | |]
 V:7 name="Drums" snm="Drums" clef=treble perc=yes
 %%MIDI channel 10
 [V:7] [^A,,^C,] | | | | | | | | | ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, [^A,,^C,] ^A,, | [^A,,^C,] ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, ^A,, [^A,,G,] ^A,, ^A,, ^A,, | |]
+V:1 name="Distortion Guitar" snm="Distortion Guitar" clef=treble
+%%MIDI program 30
+%%MIDI channel 0
+[V:1] z4 e3 | | | | | | | | | z B2 =B2 z2 c17 | z5 e3 | z B2 =B2 z2 c2 | z2 c2 e2 c2 f2 _g2 f2 c2 | z2 a3 z g2 f2 c'3 z b2 | a2 z4 f5 z d2 e2 | f2 d3 z e3 z f3 z g2 | g15 |]
+V:2 name="Distortion Guitar" snm="Distortion Guitar" clef=treble
+%%MIDI program 30
+%%MIDI channel 0
+[V:2] z5 e3 | | | | | | | | | z B2 =B2 z2 c17 | | z5 e3 z B2 =B2 z2 c2 | z2 c2 e2 c2 f2 _g2 f2 c2 | z2 a3 z g2 f2 c'3 z b2 | a2 z4 f5 z d2 e2 | f2 d3 z e3 z f3 z g2 | g15 | |]
+V:3 name="Synth Bass 1" snm="Synth Bass 1" clef=treble
+%%MIDI program 38
+%%MIDI channel 0
+[V:3] C,,2 | | | | | | | | | C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 G,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 C,,2 | C,,2 C,,2 C,,2 C,,2 C,,2 G,,2 C,,2 C,,2 | A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 A,,,2 | A,,,2 A,,,2 A,,,2 A,,2 A,,,2 A,,,2 A,,2 A,,,2 | D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 D,,2 | B,,,2 B,,,2 B,,,2 B,,,2 B,,,2 B,,,2 B,,,2 B,,,2 | |]
+V:4 name="SynthBrass 2" snm="Synth Brass 2" clef=treble
+%%MIDI program 63
+%%MIDI channel 0
+[V:4] [G,,C,]3 | | | | | | | | | z [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]2 | [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]3 | z [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]2 | [E,G,]3 z [G,,C,]2 [E,G,]3 z [G,,C,]2 [E,G,]3 z [A,,C,]3 | z [C,E,]3 z [A,,C,]2 [C,E,]3 z [A,,C,]2 | [C,E,]3 z [A,,C,]2 [C,E,]3 z [A,,C,]2 [C,E,]3 z [B,,D,]3 | z [D,G,]3 z [B,,D,]2 [D,G,]3 z [B,,D,]2 | [D,G,]3 z [B,,D,]2 [D,G,]3 z [B,,D,]2 [D,G,]3 |]
+V:5 name="SynthStrings 1" snm="Synth Strings 1" clef=treble
+%%MIDI program 50
+%%MIDI channel 0
+[V:5] [ceg]31 | | | | | | | | | | z [ceg]31 | | z [cea]31 | | z [Bdg]31 | | |]
 </abc>
 
 
