@@ -230,13 +230,13 @@ M:4/4
 L:1/16
 K:Cmin
 %%score (V1 V2)
+V:2 name="Drums" snm="Drums" clef=treble perc=yes
+%%MIDI channel 10
+[V:2] B,,,3 z E,,3 E,, E,,2 B,,,3 z E,,2 | |]
 V:1 name="Synth Bass 1" snm="Synth Bass 1" clef=treble
 %%MIDI program 38
 %%MIDI channel 0
 [V:1] C,,3 C, z2 G,, E,, _G,,2 B,,,2 B,,,2 =B,,,2 | |]
-V:2 name="Drums" snm="Drums" clef=treble perc=yes
-%%MIDI channel 10
-[V:2] B,,,3 z E,,3 E,, E,,2 B,,,3 z E,,2 | |]
 </abc>
 
 Okay so now lets see how this works along with the drums (not hats).
