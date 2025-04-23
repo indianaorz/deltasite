@@ -3,7 +3,7 @@
 const analysisContent = `
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage (full)
 M:4/4
 L:1/16
 K:Cmin
@@ -65,7 +65,7 @@ I haven't fully figured out the "best way" to identify a pattern from a song, I 
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Intro (full)
 M:4/4
 L:1/16
 K:Cmin
@@ -86,7 +86,7 @@ V:2 name="SynthBrass 2" snm="Synth Brass 2" clef=treble
 [V:2] z10 [G,,D,]3 z [G,,D,]2 | |]
 </abc>
 
-This section is basically just an intro, and I'm pretty sure it shouldn't play on a loop, so it only plays once when the song starts. I'm pretty sure a lot of Megaman X songs have this kind of intro and I'm thinking it's kinda to go along with the idea of Mega Man "beaming" down into the stage. Just a quick bar here to get you rolling into the rock of the stage.
+This section is basically just an intro, and I'm pretty sure it shouldn't play on a loop, so it only plays once when the song starts. I think probably a lot of Megaman X songs have this kind of intro and I'm thinking it's kinda to go along with the idea of Mega Man "beaming" down into the stage. Just a quick bar here to get you rolling into the rock of the stage.
 
 
 There's only 2 instruments here and a drum track. 
@@ -97,7 +97,7 @@ Lets take a look at each instrument individually to see if maybe we can get a be
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Intro (Drums, Cymbals)
 M:4/4
 L:1/16
 K:Cmin
@@ -118,7 +118,7 @@ I'm going to break out the hats and the drums separately here to be able to look
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Intro (Drums)
 M:4/4
 L:1/16
 K:Cmin
@@ -140,7 +140,7 @@ Okay now lets look at the hats.
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Intro (Cymbals)
 M:4/4
 L:1/16
 K:Cmin
@@ -169,7 +169,7 @@ Okay so that's the drums, not lets get into the melodic meat of this section.
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Intro (Bass)
 M:4/4
 L:1/16
 K:Cmin
@@ -192,7 +192,7 @@ As an experiment, let me show a few examples of what this could look like withou
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Intro (Bass, no embellishments)
 M:4/4
 L:1/16
 K:Cmin
@@ -209,7 +209,7 @@ Also this is what it would sound like without the off key note:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Intro (Bass, no off key notes)
 M:4/4
 L:1/16
 K:Cmin
@@ -225,7 +225,7 @@ You can hear how this sounds okay, but a little plain.
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Intro (Bass, Drums)
 M:4/4
 L:1/16
 K:Cmin
@@ -246,7 +246,7 @@ Rhymically it basically follows the drum beats, and adds a couple extra notes to
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Intro (Bass following drum rhythm only)
 M:4/4
 L:1/16
 K:Cmin
@@ -264,7 +264,7 @@ This is "fine", I mean it'll do if you're just writing something to get the idea
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Intro (Bass full rhythm only, drums)
 M:4/4
 L:1/16
 K:Cmin
@@ -290,7 +290,7 @@ So lets take a look at the bass line without any melody, but with the full rhyth
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Intro (Bass full rhythm, Drums)
 M:4/4
 L:1/16
 K:Cmin
@@ -316,7 +316,7 @@ We talked a lot about the F# and the B notes already, so I won't go into that ag
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Intro (Bass, Drums, Cymbals)
 M:4/4
 L:1/16
 K:Cmin
@@ -337,7 +337,7 @@ Okay so the only thing we're missing is the simplest part, the Synth Brass.
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Intro (Brass)
 M:4/4
 L:1/16
 K:Cmin
@@ -352,7 +352,7 @@ All the synth brass is really doing is helping transition into the next section 
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Intro (Brass, Drums)
 M:4/4
 L:1/16
 K:Cmin
@@ -373,7 +373,7 @@ Lets take a look at the whole section together again:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Intro (full)
 M:4/4
 L:1/16
 K:Cmin
@@ -403,7 +403,7 @@ Okay so that was a lot more in depth that I expected and actually took a few hou
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Main Theme (full)
 M:4/4
 L:1/16
 K:Cmin
@@ -442,7 +442,7 @@ Lets take a quick look at Theme A:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A (full)
 M:4/4
 L:1/16
 K:Cmin
@@ -482,7 +482,7 @@ And below is theme A Variation which plays immediately after Theme A.
 Theme A Variation:
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A Variation (full)
 M:4/4
 L:1/16
 K:Cmin
@@ -523,7 +523,7 @@ We'll start with the drums again. Since that really clearly paints the picture o
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - Drums (full)
 M:4/4
 L:1/16
 K:Cmin
@@ -540,7 +540,7 @@ Perhaps in this view it's a little easier to see that this is the same thing 2x 
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A (Drums, Cymbals)
 M:4/4
 L:1/16
 K:Cmin
@@ -557,7 +557,7 @@ V:2 name="Drums" snm="Drums" clef=treble perc=yes
 I'll focus on the cymbals first, so here's just them:
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A (Cymbals)
 M:4/4
 L:1/16
 K:Cmin
@@ -577,7 +577,7 @@ Now lets take a look at the drums:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A (Drums)
 M:4/4
 L:1/16
 K:Cmin
@@ -593,7 +593,7 @@ Let me break down the drum beat into its repeating part:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - Loop (Drums)
 M:4/4
 L:1/16
 K:Cmin
@@ -608,7 +608,7 @@ This is just 2 bars here and it loops very nicely. lets quickly take a look at t
 
 <abc>
 X:1
-T:Boots and Cats
+T:Boots and Cats (example)
 M:4/4
 L:1/16
 K:Cmin
@@ -624,7 +624,7 @@ So pretty simple but it works. This beat basically directly shows the "on beat" 
 Actually now that I'm thinking about it, the "boots and cats" drum line i might be thinking of might actually be this:
 <abc>
 X:1
-T:Boots and Cats (for real?)
+T:Boots and Cats (for real?) (example)
 M:4/4
 L:1/16
 K:Cmin
@@ -642,7 +642,7 @@ So anyway, idk if that was useful, but lets take a look back at the drums for th
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - Loop (Drums) (example)
 M:4/4
 L:1/16
 K:Cmin
@@ -656,7 +656,7 @@ The main thing I see happening here is that it starts like normal boots and cats
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - Loop (Drums) (example without double kicks)
 M:4/4
 L:1/16
 K:Cmin
@@ -678,7 +678,7 @@ Then the last part of these drums is the drum fill.
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - Loop (Drums) (fill)
 M:4/4
 L:1/16
 K:Cmin
@@ -700,7 +700,7 @@ Next to continue in how we have been going lets check out the bass.
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A (Bass)
 M:4/4
 L:1/16
 K:Cmin
@@ -715,7 +715,7 @@ Pretty simple here. The bass is basically just full 16th notes repeated over and
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - Loop (Bass)
 M:4/4
 L:1/16
 K:Cmin
@@ -747,7 +747,7 @@ We have the bass line now, lets figure out what the harmony is doing, we have ou
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A (Strings | Harmony)
 M:4/4
 L:1/16
 K:Cmin
@@ -764,7 +764,7 @@ Like everything else in this section, this is the exact same thing 2x. so lets j
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - Loop (Strings | Harmony)
 M:4/4
 L:1/16
 K:Cmin
@@ -793,7 +793,7 @@ Lets listen to both of these sections together to see how that last section soun
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A (Bass, Strings)
 M:4/4
 L:1/16
 K:Cmin
@@ -814,7 +814,7 @@ Before moving to the Brass, is there anything we can gather from the relationshi
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - Loop (Drums, Bass, Cymbals)
 M:4/4
 L:1/16
 K:Cmin
@@ -837,7 +837,7 @@ Okay! Now onto the synth brass:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A (Brass | Harmony, Rhythm)
 M:4/4
 L:1/16
 K:Cmin
@@ -853,7 +853,7 @@ Like everything else this is the same thing 2x, so lets take a look at the patte
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - Loop (Brass | Harmony, Rhythm)
 M:4/4
 L:1/16
 K:Cmin
@@ -879,7 +879,7 @@ I quickly want to take a look at the drums to see how they compare.
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - Loop (Drums, Brass)
 M:4/4
 L:1/16
 K:Cmin
@@ -898,7 +898,7 @@ From this I gather that they kinda go back and forth between being in sync and o
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - Loop (Drums, Brass) (first 4 bars)
 M:4/4
 L:1/16
 K:Cmin
@@ -916,7 +916,7 @@ What I first notice which is interesting here is that the rhythm for the brass q
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - Loop (Brass, Drums) (example)
 M:4/4
 L:1/16
 K:Cmin
@@ -945,7 +945,7 @@ At the end of the day it is adding both a rhytmic looping texture that's the sam
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - Loop (Brass, Harmony)
 M:4/4
 L:1/16
 K:Cmin
@@ -976,7 +976,7 @@ So here's the main melody for these 16 bars:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - (Lead | Melody)
 M:4/4
 L:1/16
 K:Cmin
@@ -995,7 +995,7 @@ As we established earlier, every single part of the song is 2x repeated, so the 
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - Part 1 (Lead | Melody)
 M:4/4
 L:1/16
 K:Cmin
@@ -1017,7 +1017,7 @@ Lets zoom in there since there's a lot of good stuff going on here.
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - Part 1 - Motif 1 & Variation - Call (Lead | Melody)
 M:4/4
 L:1/16
 K:Cmin
@@ -1048,7 +1048,7 @@ I typically think of Ab in Cm as a very powerful chord. It feels like you're pus
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A - Part 2 - Response (Lead | Melody)
 M:4/4
 L:1/16
 K:Cmin
@@ -1071,7 +1071,7 @@ Lets take a look at the melody and chords together so we can see how the melody 
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A (Lead, Strings | Melody, Harmony)
 M:4/4
 L:1/16
 K:Cmin
@@ -1080,7 +1080,7 @@ V:1 name="Distortion Guitar" snm="Distortion Guitar" clef=treble
 %%MIDI program 30
 %%MIDI channel 0
 [V:1] z4 e3 | z B2 =B2 z2 c17 | z5 e3 | z B2 =B2 z2 c2 | z2 c2 e2 g2 f2 e2 d2 B2 | z2 a3 z g2 f2 e2 z2 d2 | e2 z4 c5 z d2 e2 | f2 d3 z e3 z d3 z B2 | G15 |]
-V:2 name="SynthStrings 1" snm="Synth Strings 1" clef=treble
+V:2 name="SynthStrings 1 (c)" snm="Synth Strings 1" clef=treble
 %%MIDI program 50
 %%MIDI channel 0
 [V:2] [ceg]31 | | z [ceg]31 | | z [cea]31 | | z [Bdg]31 | | |]
@@ -1092,7 +1092,7 @@ Now lets take a look at 9-16, aka the Theme A Variation:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A Variation (Lead, Strings | Melody, Harmony)
 M:4/4
 L:1/16
 K:Cmin
@@ -1101,7 +1101,7 @@ V:1 name="Distortion Guitar" snm="Distortion Guitar" clef=treble
 %%MIDI program 30
 %%MIDI channel 0
 [V:1] z4 e3 | | | | | | | | | z B2 =B2 z2 c17 | z5 e3 | z B2 =B2 z2 c2 | z2 c2 e2 c2 f2 _g2 f2 c2 | z2 a3 z g2 f2 c'3 z b2 | a2 z4 f5 z d2 e2 | f2 d3 z e3 z f3 z g2 | g15 |]
-V:2 name="SynthStrings 1" snm="Synth Strings 1" clef=treble
+V:2 name="SynthStrings 1 (c)" snm="Synth Strings 1" clef=treble
 %%MIDI program 50
 %%MIDI channel 0
 [V:2] [ceg]31 | | | | | | | | | | z [ceg]31 | | z [cea]31 | | z [Bdg]31 | | |]
@@ -1115,7 +1115,7 @@ So this next section isn't to actually listen to, but it's for a rhytmic compari
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A + Variation (Lead) (example)
 M:4/4
 L:1/16
 K:Cmin
@@ -1150,7 +1150,7 @@ Lets take a quick look at what it would sound like if we didn't do the triplet t
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A Variation (Lead) (no triplet) (example)
 M:4/4
 L:1/16
 K:Cmin
@@ -1170,7 +1170,7 @@ Lets take one more listen to the whole section here now hopefully having a littl
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A (full)
 M:4/4
 L:1/16
 K:Cmin
@@ -1210,11 +1210,17 @@ On to the next section, I guess if the previous section was the main theme, I'd 
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme B (full)
 M:4/4
 L:1/16
 K:Cmin
 %%score (V1 V2 V3 V4 V5 V6 V7)
+V:6 name="Drums" snm="Drums" clef=treble perc=yes
+%%MIDI channel 10
+[V:6] z15 C,, | | | | | | | | | | | | | | | | | B,,,3 z E,,3 z B,,,3 z E,,3 z B,,,3 | z E,,3 z B,,,3 z E,,3 z B,,,3 | z E,,3 z B,,,3 z E,,3 z B,,,3 | z E,,3 z E,, E,, D,, D,, B,,, B,,, C,, C,, | B,,,3 z E,,3 z B,,,3 z E,,3 z B,,,3 | z E,,3 z B,,,3 z E,,3 z B,,,3 | z E,,3 z B,,,3 z E,,3 z B,,,3 | z E,,3 z E,, E,, D,, D,, B,,, B,,, C,, C,, | |]
+V:7 name="Drums" snm="Drums" clef=treble perc=yes
+%%MIDI channel 10
+[V:7] z15 ^A,, | | | | | | | | | | | | | | | | | [^F,,^C,]2 ^F,,2 [^A,,G,]2 ^F,,2 ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 | ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 | ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 | ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 | [^F,,^C,]2 ^F,,2 [^A,,G,]2 ^F,,2 ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 | ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 | ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 | ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 | |]
 V:1 name="Distortion Guitar" snm="Distortion Guitar" clef=treble
 %%MIDI program 30
 %%MIDI channel 0
@@ -1235,19 +1241,13 @@ V:5 name="SynthStrings 1" snm="Synth Strings 1" clef=treble
 %%MIDI program 50
 %%MIDI channel 0
 [V:5] z16 [cea]15 | | | | | | | | | | | | | | | | | z [Bdg]15 | z [Acf]15 | z [Bdg]15 | z [cfa]15 | z [ceg]15 | z [Bef]15 | z [=Bdg]15 | |]
-V:6 name="Drums" snm="Drums" clef=treble perc=yes
-%%MIDI channel 10
-[V:6] z15 C,, | | | | | | | | | | | | | | | | | B,,,3 z E,,3 z B,,,3 z E,,3 z B,,,3 | z E,,3 z B,,,3 z E,,3 z B,,,3 | z E,,3 z B,,,3 z E,,3 z B,,,3 | z E,,3 z E,, E,, D,, D,, B,,, B,,, C,, C,, | B,,,3 z E,,3 z B,,,3 z E,,3 z B,,,3 | z E,,3 z B,,,3 z E,,3 z B,,,3 | z E,,3 z B,,,3 z E,,3 z B,,,3 | z E,,3 z E,, E,, D,, D,, B,,, B,,, C,, C,, | |]
-V:7 name="Drums" snm="Drums" clef=treble perc=yes
-%%MIDI channel 10
-[V:7] z15 ^A,, | | | | | | | | | | | | | | | | | [^F,,^C,]2 ^F,,2 [^A,,G,]2 ^F,,2 ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 | ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 | ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 | ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 | [^F,,^C,]2 ^F,,2 [^A,,G,]2 ^F,,2 ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 | ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 | ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 | ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 ^F,,2 ^F,,2 [^A,,G,]2 ^F,,2 | |]
 </abc>
 
 This section I feel like is building up even more. It also feels like a different groove than the first section which We can see with the drum part.
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme B (Drums, Cymbals)
 M:4/4
 L:1/16
 K:Cmin
@@ -1269,7 +1269,7 @@ Lets take a look at the bass:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme B (Bass | Root, Rhythm)
 M:4/4
 L:1/16
 K:Cmin
@@ -1292,7 +1292,7 @@ Now lets look at the strings to see how they add to the harmony:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme B (Strings | Harmony)
 M:4/4
 L:1/16
 K:Cmin
@@ -1331,7 +1331,7 @@ Lets listen to both together:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme B (Bass, Strings | Root, Rhythm, Harmony)
 M:4/4
 L:1/16
 K:Cmin
@@ -1352,7 +1352,7 @@ The Brass during this section breaks from its rhythm and adds mostly to the harm
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme B (Brass | Harmony)
 M:4/4
 L:1/16
 K:Cmin
@@ -1377,7 +1377,7 @@ Putting together with to the bass and the string what kind of harmony do we get?
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme B (Bass, Strings, Brass | Root, Rhythm, Harmony)
 M:4/4
 L:1/16
 K:Cmin
@@ -1404,7 +1404,7 @@ Now lets look at the most complicated part, the main melody:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme B (Lead | Melody)
 M:4/4
 L:1/16
 K:Cmin
@@ -1461,7 +1461,7 @@ Lets listen to the whole thing:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme B (Full)
 M:4/4
 L:1/16
 K:Cmin
@@ -1489,7 +1489,7 @@ Okay the final section is the most crazy chaotic section and honestly I have abs
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme C (Full)
 M:4/4
 L:1/16
 K:Cmin
@@ -1519,7 +1519,7 @@ Lets start with the drums:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme C (Drums)
 M:4/4
 L:1/16
 K:Cmin
@@ -1538,7 +1538,7 @@ Actually, looking at it, it's a single loop 4x with a drum fill. So the whole th
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme C - Loop (Drums | Rhythm)
 M:4/4
 L:1/16
 K:Cmin
@@ -1563,7 +1563,7 @@ Now lets check out the bass.
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme C (Bass | Root, Melody, Rhythm)
 M:4/4
 L:1/16
 K:Cmin
@@ -1593,7 +1593,7 @@ The root notes look like C | F | C | F (an octave higher)|
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme C (Strings | Harmony, Rhythm)
 M:4/4
 L:1/16
 K:Cmin
@@ -1614,7 +1614,7 @@ The other interesting thing is that cdf chord, which is not a typical chord. Giv
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme C (Brass | Harmony, Rhythm, Melody)
 M:4/4
 L:1/16
 K:Cmin
@@ -1629,7 +1629,7 @@ Looking at the brass this is a very interesting variation on the original brass 
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme A (Brass | Harmony, Rhythm) (example)
 M:4/4
 L:1/16
 K:Cmin
@@ -1647,7 +1647,7 @@ lets take a listen of both the strings and brass together:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme C (Brass, Strings | Harmony, Rhythm, Melody)
 M:4/4
 L:1/16
 K:Cmin
@@ -1676,7 +1676,7 @@ So the brass basically exactly matches the harmony and just provides its little 
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme C - End (Bass, Brass | Harmony, Rhythm, Melody)
 M:4/4
 L:1/16
 K:Cmin
@@ -1696,7 +1696,7 @@ Now for the final melodic section:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme C (Lead | Melody)
 M:4/4
 L:1/16
 K:Cmin
@@ -1713,7 +1713,7 @@ Lets take a look at it with the strings so we can see the harmony in the theme:
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage - Theme C (Lead, Strings | Melody, Harmony)
 M:4/4
 L:1/16
 K:Cmin
@@ -1742,7 +1742,7 @@ Lets take a final listen to the whole song again. Even if everything was a littl
 
 <abc>
 X:1
-T:Multi-Track Snippet
+T:MMX Intro Stage (Full)
 M:4/4
 L:1/16
 K:Cmin

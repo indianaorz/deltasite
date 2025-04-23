@@ -545,7 +545,8 @@ function createStaticPianoRollRenderer(renderOptions) {
         effectiveNoteHeight = Math.max(NOTE_BASE_HEIGHT, dynamicRowH);
 
         // split that (now guaranteed ≥ NOTE_BASE_HEIGHT) across your voices:
-        subRowHeight = effectiveNoteHeight / voiceCount;
+        // subRowHeight = effectiveNoteHeight / voiceCount;
+        subRowHeight = effectiveNoteHeight;
 
 
 
@@ -870,12 +871,17 @@ function createStaticPianoRollRenderer(renderOptions) {
         const x = midiTickToCanvasX(start_tick);
         const w = Math.max(1, duration_ticks * PIXELS_PER_TICK_BASE * scaleX);
 
-        // full‑row top Y, then shift down by voice index
-        const fullRowY = midiPitchToCanvasY(pitch);
-        const y = fullRowY + voice * subRowHeight + NOTE_VERTICAL_GAP / 2;
+        // ── old stacking logic ──
+        // const fullRowY = midiPitchToCanvasY(pitch);
+        // const y = fullRowY + voice * subRowHeight + NOTE_VERTICAL_GAP / 2;
+        // const h = Math.max(1, subRowHeight - NOTE_VERTICAL_GAP);
 
-        // each sub‑row’s height
-        const h = Math.max(1, subRowHeight - NOTE_VERTICAL_GAP);
+
+        // ── new full‑cell logic ──
+        const fullRowY = midiPitchToCanvasY(pitch);
+        const y = fullRowY + NOTE_VERTICAL_GAP / 2;
+        const h = Math.max(1, effectiveNoteHeight - NOTE_VERTICAL_GAP);
+
 
         // colour/alpha logic unchanged
         const inScale = isNoteInScale(pitch);
