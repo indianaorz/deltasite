@@ -834,6 +834,8 @@ function createStaticPianoRollRenderer(renderOptions) {
         ctx.restore(); // Restore context state
     }
 
+    
+
     // Make sure the rest of static-pianoroll.js remains the same
 
     // Replace drawAllNotes with this drop‑in:

@@ -169,7 +169,7 @@ Okay so that's the drums, not lets get into the melodic meat of this section.
 
 <abc>
 X:1
-T:MMX Intro Stage - Intro (Bass)
+T:MMX Intro Stage - Intro (Bass | rhythm, root)
 M:4/4
 L:1/16
 K:Cmin

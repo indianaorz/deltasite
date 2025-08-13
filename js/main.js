@@ -32,6 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // At top of DOMContentLoaded callback:
     const loading = document.getElementById('loading-indicator');
     const container = document.getElementById('analysis-content');
+    const DOWNLOAD_BTN_HTML =
+        '<i class="fas fa-file-download"></i>';
 
     // In dataScript.onload:
     loading.style.display = 'none';
@@ -70,6 +72,30 @@ document.addEventListener('DOMContentLoaded', () => {
             const progress = ev.milliseconds / state.totalMillis;
             const playheadX = progress * canvasWidth;
             playhead.style.left = `${Math.min(canvasWidth, Math.max(0, playheadX))}px`;
+        }
+    }
+
+    function handleDownloadClick(abcString, tuneTitle = 'tune') {
+        try {
+            // getMidiFile returns a <div>…<a …>Download…</a></div> string
+            const html = ABCJS.synth.getMidiFile(abcString, {
+                midiOutputType: 'link',
+                downloadLabel: `Download MIDI`,
+                fileName: `${tuneTitle}.mid`
+            });
+            // pull the anchor out of the returned html
+            const tmp = document.createElement('div');
+            tmp.innerHTML = html;
+            const anchor = tmp.querySelector('a');
+            if (!anchor) throw new Error('midi link not generated');
+            // add & click invisibly, then clean up
+            anchor.style.display = 'none';
+            document.body.appendChild(anchor);
+            anchor.click();
+            document.body.removeChild(anchor.parentNode);
+        } catch (err) {
+            console.error('MIDI download failed:', err);
+            alert('Sorry—could not generate the MIDI file.');
         }
     }
 
@@ -194,6 +220,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     controls.appendChild(title);
                     blockWrapper.appendChild(controls);
 
+                    // download button
+                    const downloadBtn = document.createElement('button');
+                    downloadBtn.className = 'abc-download-button';
+                    downloadBtn.innerHTML = DOWNLOAD_BTN_HTML;
+                    downloadBtn.title = 'Download MIDI';
+                    downloadBtn.dataset.blockId = blockId;
+                    controls.appendChild(downloadBtn);
+
+
                     // piano‑roll skeleton
                     const pianoWrapper = document.createElement('div');
                     pianoWrapper.className = 'static-piano-roll-wrapper';
@@ -292,6 +327,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         playBtn.title = "Setup Error";
                     }
                     playBtn.addEventListener('click', handlePlayButtonClick);
+
+                    downloadBtn.addEventListener('click', () => {
+                        const abcTitle = title.textContent || `Example ${abcBlockIndex}`;
+                        handleDownloadClick(abcString, abcTitle.replace(/\s+/g, '_'));
+                      });
 
                 } else {
                     // commentary
